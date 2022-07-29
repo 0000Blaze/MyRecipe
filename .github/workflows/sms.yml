@@ -11,10 +11,10 @@ jobs:
       steps:      
         - uses: twilio-labs/actions-sms@v1
           with:
-            fromPhoneNumber: '+1(325)2412075'
+            fromPhoneNumber: '+13252412075'
             toPhoneNumber: '+9779843625165'
             message: 'Hello from Rohan's Twilio'
           env:
-            TWILIO_ACCOUNT_SID: AC250bdd157c0312b34867451fae6882ab
-            TWILIO_API_KEY: SKd5db4b17e16d3818832a65f41b0f03d7
-            TWILIO_API_SECRET: 6xMvcqJGv2Yz8G1Bh9mo7VjfX0c4EMLp
+          TWILIO_ACCOUNT_SID: AC250bdd157c0312b34867451fae6882ab
+          TWILIO_API_KEY: SKd5db4b17e16d3818832a65f41b0f03d7
+          TWILIO_API_SECRET: 6xMvcqJGv2Yz8G1Bh9mo7VjfX0c4EMLp
